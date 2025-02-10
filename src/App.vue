@@ -1,6 +1,6 @@
 <template>
   <main>
-    <h1>{{ sheSaidYes ? 'I know you would say YES, See you on Febuary 14! I love you so muuuch!' : 'Will you be my valentine?' }}</h1>
+    <h1>{{ sheSaidYes ? 'I know you will say YES, See you on Febuary 14! I love you so muuuch!' : 'Will you be my valentine?' }}</h1>
     <img 
       width="300" 
       height="300" v-if="(currentImageIndex <= images.length - 1) || currentImageIndex !== -1" :src="currentImage" alt="Not found :(">
