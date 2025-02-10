@@ -21,15 +21,8 @@ import { computed, ref } from 'vue';
 
 const currentImageIndex = ref(0);
 const yesBtn = ref(null);
-const noCount = ref(0);
 const sheSaidYes = ref(false);
-
 const yesBtnSize = ref(100);
-
-const messages = [
-  'Will you be my valentine?',
-  ''
-];
 
 const images = [
   'anim1.gif',
