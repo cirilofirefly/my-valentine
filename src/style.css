@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(247, 160, 189);
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.btn {
+  border: 0;
+  padding: 12px 16px;
+  width: 100px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.yes-btn {
+  background-color: rgb(245, 84, 111);
+  outline: none;
+  color: white;
+
+}
+
+img {
+  border-radius: 20px;
+}
+
+.btns-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
